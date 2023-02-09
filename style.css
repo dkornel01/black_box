@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+header{
+    text-align: center;
+    flex-flow: row-wrap;
+    align-items: stretch;
+    justify-content:space-around ;
+    margin: 0;
+}
+article{
+    text-align: justify;
+    color: beige;
+    margin: 5px;
+    background-color: #9c9c9c;
+    flex: 1 1 200px;
+    
+}
+article :nth-of-type(4) {
+    flex-grow: 10;
+}
